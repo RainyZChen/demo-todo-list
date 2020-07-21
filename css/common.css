@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+ul,li{ padding:0;margin:0;list-style:none}
+.le-ri-padding{
+    margin: 0 50px;
+}
+
+.head-font{
+    font-size: 45px;
+}
+.des-font{
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.gloomy-font{
+    color: rgba(255,255,255,0.5);
+}
+.block-display{
+    display: block;
+}
+.none-display{
+    display: none;
+}

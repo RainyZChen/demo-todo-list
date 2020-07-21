@@ -1,0 +1,110 @@
+.page{
+    overflow: hidden;
+}
+.page .view{
+    min-height: 100px;
+    width: 550px;
+    /*border: 1px red solid;*/
+    margin: 30px auto;
+    background: #ddd;
+}
+.page .view .main{
+    display: inline-block;
+    background: #FF6666;
+    margin: 18px 0 -18px 18px;
+    min-height: 100px;
+    width: 550px;
+    color: white;
+    padding: 50px 0;
+}
+.page .view .main .head{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 450px;
+}
+.page .view .main .list{
+    margin: 35px 0;
+}
+.page .view .main .list .list-bottom{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.page .view .main .list .list-bottom .list-bottom-text{
+    float: right;
+}
+.page .view .main .list .list-bottom img{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.page .view .main .list .list-bottom img:hover{
+    cursor: pointer;
+}
+
+.page .view .main .list .no-todo{
+    text-align: center;
+    vertical-align: middle;
+    color: #dddddd;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px 0;
+    display: none;
+}
+.page .view .main .list span{
+    font-style: italic;
+}
+.page .view .main .list ul li{
+    width: 100%;
+    display: table;
+    padding: 20px 50px;
+    margin-bottom: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.page .view .main .list ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+.page .view .main .list ul li img{
+    width: 20px;
+    height: 20px;
+}
+.page .view .main .list ul li img:hover{
+    cursor: pointer;
+}
+.page .view .main .list ul li .list-img{
+    display: table-cell;
+    width: 50px;
+    vertical-align: middle;
+    /*padding-left: 10px;*/
+}
+.page .view .main .list ul li .list-text{
+    display: table-cell;
+}
+.page .view .main .add .add-font{
+    font-size: 20px;
+}
+.page .view .main .add .add-text div{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    width: 15%;
+    height: 50px;
+    margin-left: 3px;
+    float: left;
+    line-height: 50px;
+}
+.page .view .main .add .add-text div:hover{
+    cursor: pointer;
+}
+.page .view .main .add .add-text input{
+    width: 80%;
+    height: 50px;
+    border: 0 ;
+    float: left;
+}
+.page .view .main .add .add-text{
+    margin-top: 5px;
+    overflow: hidden;
+}
